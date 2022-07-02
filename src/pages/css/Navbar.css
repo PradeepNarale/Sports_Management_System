@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+/*Teko font for navbar*/
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500&display=swap');
+/*Hind siliguri*/
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+/*font-family: 'Allerta Stencil', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/*font-family: 'Quicksand', sans-serif;*/
+.Home {
+  width: 99vw;
+  overflow: hidden;
+}
+
+.navbar {
+  font-family: 'Teko', sans-serif;
+  color: white;
+  overflow: hidden;
+  margin-top: 5vh;
+  background-color: transparent;
+  font-size: 1.3rem;
+  position: fixed;
+  z-index: 10;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+}
+
+.leftLink {
+  float: left !important;
+}
+
+.redirectLink{
+  color: white;
+  text-decoration: none;
+}
+.rightLink {
+  float: right;
+  margin-left: 27vw;
+}
+
+.rightLink,
+.leftLink {
+  display: flex;
+}
+
+.leftLink li,
+.rightLink li {
+  margin-left: 5vw;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.leftLink li:hover,
+.rightLink li:hover,.redirectLink:hover {
+color: rgb(98, 0, 255);
+cursor: pointer;
+}
+
+
+/* carousel */
+.carouselImg {
+  width: 100vw;
+  filter: brightness(0.5);
+  height: auto;
+}
+
+
+/* events */
+.events {
+  z-index: 5;
+  background-color: #492ae3d7;
+  height: 100vh;
+  padding-top: 24vw;
+  width: 100vw;
+  z-index: 2;
+  margin-top: -30vw;
+  clip-path: polygon(85% 20%, 155% 100%, 0% 1000%, 0 50%);
+}
+
+.titleOfEvent {
+  background-color: black;
+  color: white;
+  width: 26vw;
+  height: 7vh;
+  padding: 1.5vh 1.5vw;
+  margin-top: 1vh;
+}
+
+.titleOfEvent p {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+.blueBg{
+  background-color: #492ae3;
+}
+.scnd {
+  width: 22vw !important;
+}
+
+.floatingTitle {
+  position: relative;
+  transform: rotate(-14.5deg);
+  left: 57vw;
+  top: -30vh;
+  z-index: 100;
+}
+
+.dates {
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  margin-left: 1vw;
+  margin-top: 1vh;
+  color: white;
+}
+
+/* sports */
+.sports {
+  margin-top: -65vh;
+  width: 100vw;
+  height: 120vh;
+  background-color: #492ae3;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 80%, 25% 100%, 0% 85%, 0% 75%);
+  position: relative;
+  font-family: 'Teko', sans-serif;
+}
+
+.leftSports {
+  color: white;
+  padding: 2vw;
+  margin-left: 5vw;
+  width: 30vw;
+}
+
+.subHeader {
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+.header {
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.datesLeft {
+  font-size: 1.2rem;
+  background-color: black;
+  width: 10vw;
+  padding: 0.5vh 1.3vw;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.subTitle {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.paraText {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 200;
+  width: 20vw;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+
+.viewMore {
+  font-size: 1.2rem;
+  color: white;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+}
+
+.rightFloat {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.verticalFootball {
+  height: auto;
+  width: 28vw;
+  filter: brightness(0.7);
+  border-radius: 2px;
+  float: right;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-right: 5vw;
+}
+
+.golfSquare {
+  width: 23vw;
+  filter: brightness(0.7);
+  border-radius: 2px;
+  margin-top: -2vh;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  height: auto;
+}
+
+.powerLiftingSquare {
+  width: 23vw;
+  filter: brightness(0.7);
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-top: 6vh;
+  height: auto;
+}
+
+.leftSideImages {
+  display: flex;
+  position: absolute;
+  width: 20vw;
+  flex-wrap: wrap;
+  justify-items: baseline;
+  margin-top: 10vh;
+  margin-left: -27vw;
+}
+.eventInformation{
+ height: 100vh;
+ width: 99vw;
+ display: flex;
+}
+.leftHeading{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 6rem;
+  text-align:right ;
+  margin-top: 15vh;
+  letter-spacing: 2px;
+  width: 35vw;
+  margin-left: 10vw;
+}
+.rightSideEvents{
+  float: right;
+  margin-top: 6vh;
+  padding-left: 10vw;
+  width: 45vw;
+}
+.card{
+  display: flex;
+  margin-top: 2vh;
+  width: 20vw;
+}
+.eventImg{
+  width: auto;
+  height: 18vh;
+  margin-left: 2vw;
+  margin-top: 7vh;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 2px;
+  float: right;
+}
+.eventTitle{
+  background-color: black;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 14vw;
+  padding: 1vh 1.5vw;
+  font-size: 1.3rem;
+}
+.aboutEvent{
+  width: 15vw;
+  letter-spacing: 1px;
+}
+.viewMoreLink{
+  color: red;
+}
+.Interest{
+  display: flex;
+}
+.interestRightImage{
+  height: 120vh;
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-left: 5vw;
+  border-radius: 2px;
+}
+.leftInterest{
+  margin-left: 5vw;
+}
+.headingInterest{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 6rem;
+  margin-top: -2vh;
+  text-align:right ;
+  letter-spacing: -5px;
+  width: 40vw;
+}
+.gridContainer{
+  display: inline-grid;
+  float: right;
+  grid-template-columns: auto auto;
+}
+.gridItem{
+  display: flex;
+  padding: 1vh 2vw;
+}
+.aboutSports{
+  margin-left: 1.5vw;
+}
+.leftSideBorder{
+  width: 0.3vw;
+  height: 12vh;
+  background-color: black;
+}
+.sportsName{
+  font-family: 'Teko', sans-serif;
+  font-size: 1.8rem;
+  line-height: 5vh;
+  margin-top: 1vh;
+}
+.viewDetails{
+  letter-spacing: 4px;
+  color: red;
+  font-family: 'Teko', sans-serif;
+  margin-top: -2vh;
+}
+.eventDesc{
+  display: flex;
+  margin-top: 30vh;
+}
+.leftAboutEvent{
+  margin-left: 5vw;
+  text-align: right;
+}
+.headingAbout{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 6rem;
+  margin-top: -2vh;
+  text-align:right ;
+  letter-spacing: -5px;
+  width: 40vw;
+  text-transform: uppercase;
+  font-weight: bolder;
+  line-height: 15vh;
+}
+.aboutText{
+  margin-top: -5vh;
+  float: right;
+  margin-right: -2vw;
+  padding: 0vh 2vw;
+  width: 30vw;
+  letter-spacing: 1px;
+}
+.imgEventDesc{
+  height: 60vh;
+  width: auto;
+  margin-right: 4vw;
+  margin-left: 8vw;
+  margin-top: 8vh;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.sponsors{
+  display: flex;
+  margin-top: 30vh;
+  margin-left: 5vw;
+}
+.sponsorsImg{
+  margin-left: 8vw;
+  width:auto;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  height: 60vh;
+}
+.headingSponsors{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 6rem;
+  margin-top: -2vh;
+  letter-spacing: -5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: right;
+  line-height: 15vh;
+}
+.aboutSponsors{
+  width: 35vw;
+  letter-spacing: 1px;
+  text-align: right;
+  margin-left: 5vw;
+}
+.aboutSponsor{
+  margin-top: -5vh;
+  width: 25vw;
+  letter-spacing: 2px;
+  float: right;
+}
+.learnMore{
+  letter-spacing: 3px;
+  color: red;
+  float: right;
+  margin-left: 10vw;
+  font-family: 'Teko', sans-serif;
+  margin-top: 6vh;
+}
+.footer{
+  margin-top: 50vh;
+}
+.footerOptions{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-left: 36vw;
+  font-family: 'Teko', sans-serif;
+  color: blue;
+  font-weight: bold;
+}
+.footerOptions li{
+  margin-right: 5vw;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+.footerHr{
+  width: 40vw;
+  opacity: 0.5;
+}
+.footerSponsors{
+  text-align: center;
+  margin-left: 35vw;
+  display: flex;
+}
+.anEventOf{
+  font-family: 'Teko', sans-serif;
+ letter-spacing: 4px;
+ font-weight: bold;
+ margin-right: 2vw;
+}
+.socialIcons{
+margin-left: 1.5vw;
+}
+.socialIcon{
+  height: 3.5vh;
+  vertical-align: center;
+  text-align: center;
+  width: auto;
+  margin-top: 2vh;
+  margin-right: 1.5vw;
+}
+.yt{
+  margin-bottom: -0.6vh;
+}
+.copyright{
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.455);
+}
+.sponsor{
+  width: auto;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-right: 1vw;
+}
+
+/* register */
+.registerPage{
+  display: flex;
+  margin-left: -3vh;
+}
+.leftSideBg ,.rightSideBg{
+  height: auto;
+  width: 50vw;
+  filter: brightness(0.7);
+}
+.regPage{
+  position: absolute;
+  background-color: rgba(255, 255, 255);
+  width: 40vw;
+  left: 28vw;
+  top:10vh;
+  height: 80vh;
+}
+.registerForm{
+  padding: 3vh 5vw;
+  text-align: center;
+}
+.registerHeading{
+  font-family: 'Teko', sans-serif;
+  color: black;
+  letter-spacing: 1.5px;
+  margin-bottom: 3vh;
+  font-size: 3rem;
+}
+.inputBox{
+  width: 20vw;
+  height: 5vh;
+  border: 1px solid rgba(0, 0, 0, 0.325);
+  margin-bottom:2vh ;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  padding-left: 2vw;
+}
+.regButton{
+  width: 10vw;
+  margin-left: 0.5vw;
+  height: 5vh;
+  background-color: white;
+  border: 1px solid black;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-top: 2vh;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* admin Css */
+.adminLogin{
+margin-top: 10vh;
+}
+.dataTableDiv{
+  /* background-color: red; */
+  width: 80vw;
+  margin-left: 7vw;
+}
+.adminNavbar{
+  background-color: blue;
+}
+.dataTableDiv{
+  padding: 5vh 2vw;
+}
+.dataTable{
+  width: 28vw !important;
+}
+.tableTitle{
+  font-family: 'Teko', sans-serif;
+  color: black;
+  letter-spacing: 1.5px;
+  margin-bottom: 3vh;
+  font-size: 3rem;
+}
+.columnTitle{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
