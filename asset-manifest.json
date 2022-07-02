@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72fa734e.css",
+    "main.js": "/static/js/main.675703f5.js",
+    "static/js/787.33e4d352.chunk.js": "/static/js/787.33e4d352.chunk.js",
+    "static/media/powerLifting.jpg": "/static/media/powerLifting.fd9f7452af71250139f9.jpg",
+    "static/media/golfSqure.jpg": "/static/media/golfSqure.3ba5d5e24c6495779487.jpg",
+    "static/media/cricketRegister.jpg": "/static/media/cricketRegister.b90ab4aeef78abc7cb11.jpg",
+    "static/media/basketBallRegister.jpg": "/static/media/basketBallRegister.e0ef96cf9059707ecf16.jpg",
+    "static/media/footballVertical.jpg": "/static/media/footballVertical.709a2182d0c534df2114.jpg",
+    "static/media/cycle.jpg": "/static/media/cycle.de74e7e6b411465a6d71.jpg",
+    "static/media/riverRafting.jpg": "/static/media/riverRafting.27e4e5dfc5c96f63ac44.jpg",
+    "static/media/twitter.png": "/static/media/twitter.91379a6b32141d1aea1f.png",
+    "static/media/instagram.png": "/static/media/instagram.66ec65eca90c77445379.png",
+    "static/media/youtube.png": "/static/media/youtube.43dd5b4034d667cf400f.png",
+    "index.html": "/index.html",
+    "main.72fa734e.css.map": "/static/css/main.72fa734e.css.map",
+    "main.675703f5.js.map": "/static/js/main.675703f5.js.map",
+    "787.33e4d352.chunk.js.map": "/static/js/787.33e4d352.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72fa734e.css",
+    "static/js/main.675703f5.js"
+  ]
+}
